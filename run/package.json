@@ -1,0 +1,27 @@
+{
+    "name": "run",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "start prod": "ts-node src/index_prod.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@coral-xyz/anchor": "^0.29.0",
+        "@solana-developers/helpers": "^2.3.0",
+        "@solana/spl-token": "^0.4.8",
+        "@solana/web3.js": "^1.95.0",
+        "bignumber.js": "^9.1.2",
+        "bluebird": "^3.7.2",
+        "bn.js": "^5.2.1",
+        "resolve-dir": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/bn.js": "^5.1.6",
+        "@types/resolve-dir": "^0.0.0"
+    }
+}
